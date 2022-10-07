@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/10/06 15:52:36.868,=C:\Users\gustavo.simao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/06 15:53:03.201,C:\Users\gustavo.simao\Documents\Embarcadero\Studio\Projects\Calculadora\U_Calculadora.fmx=C:\Users\gustavo.simao\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/10/06 15:53:03.201,C:\Users\gustavo.simao\Documents\Embarcadero\Studio\Projects\Calculadora\U_Calculadora.pas=C:\Users\gustavo.simao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/06 15:55:05.581,C:\Users\gustavo.simao\Documents\Embarcadero\Studio\Projects\Calculadora\Calculadora.dproj=C:\Users\gustavo.simao\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/06 23:40:46.079,=C:\Users\gustavo.simao\Pictures\apagar.bmp</Transaction>
+    <Transaction>2022/10/06 23:42:09.881,C:\Users\gustavo.simao\Pictures\apagar.bmp=</Transaction>
+  </Transactions>
+</BorlandProject>

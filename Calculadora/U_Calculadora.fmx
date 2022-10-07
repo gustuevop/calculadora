@@ -1,0 +1,217 @@
+object frm_calculadora: Tfrm_calculadora
+  Left = 0
+  Top = 0
+  Caption = 'Calculadora'
+  ClientHeight = 305
+  ClientWidth = 235
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btn_0: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = '0'
+    OnClick = btn_0Click
+  end
+  object btn_1: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    Text = '1'
+    OnClick = btn_1Click
+  end
+  object btn_2: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    Text = '2'
+    OnClick = btn_2Click
+  end
+  object btn_8: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    Text = '8'
+    OnClick = btn_8Click
+  end
+  object btn_7: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = '7'
+    OnClick = btn_7Click
+  end
+  object btn_4: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = '4'
+    OnClick = btn_4Click
+  end
+  object btn_5: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = '5'
+    OnClick = btn_5Click
+  end
+  object btn_6: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = '6'
+    OnClick = btn_6Click
+  end
+  object btn_3: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = '3'
+    OnClick = btn_3Click
+  end
+  object btn_9: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    Text = '9'
+    OnClick = btn_9Click
+  end
+  object btn_virgula: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = ','
+    OnClick = btn_virgulaClick
+  end
+  object btn_subtrair: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = '-'
+    OnClick = btn_subtrairClick
+  end
+  object btn_multiplicar: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'x'
+    OnClick = btn_multiplicarClick
+  end
+  object btn_somar: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    Text = '+'
+    OnClick = btn_somarClick
+  end
+  object btn_dividir: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #247
+    OnClick = btn_dividirClick
+  end
+  object layout_topo: TLayout
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    object txt_resultado: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Size.Width = 217.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object lbl_memoria: TLabel
+      Size.Width = 216.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Trailing
+      TabOrder = 1
+    end
+  end
+  object btn_resultado: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = '='
+    OnClick = btn_resultadoClick
+  end
+  object btn_limpar: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'C'
+    OnClick = btn_limparClick
+  end
+  object btn_apagar: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = '<<'
+    OnClick = btn_apagarClick
+  end
+end
